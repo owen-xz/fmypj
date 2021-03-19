@@ -1,0 +1,43 @@
+.alertBox{
+  margin-right: 24px;
+  margin-left: 24px;
+  background: #FEFCFF 0% 0% no-repeat padding-box;
+  border-radius: 20px 20px 0px 80px;
+  opacity: 1;
+  padding: 24px 24px 24px 33px;
+  h2{
+    text-align: left;
+    font: normal normal bold 26px/30px Microsoft JhengHei;
+    letter-spacing: -0.42px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 10px;
+  }
+  p{
+    text-align: left;
+    font: normal normal normal 14px/20px Microsoft JhengHei;
+    letter-spacing: -0.14px;
+    color: #998FA2;
+    opacity: 1;
+  }
+  button{
+    width: 94px;
+    height: 44px;
+    border-radius: 80px;
+    text-align: center;
+    font: normal normal normal 16px/26px Microsoft JhengHei;
+    letter-spacing: 0.06px;
+    color: #FFFFFF;
+  }
+  .btnBlock{
+    margin-top: 28px;
+    text-align: right;
+  }
+}
+.btn-cancel{
+  background: #9599B3 0% 0% no-repeat padding-box;
+  margin-right: 12px;
+}
+.btn-buy{
+  background: #8A56AC 0% 0% no-repeat padding-box;
+}

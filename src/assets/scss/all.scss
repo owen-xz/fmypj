@@ -1,0 +1,66 @@
+@import "./reset.scss";
+@import "./home.scss";
+@import "./footer.scss";
+@import "./alert.scss";
+body{
+  min-width: 375px;
+	background: #352641 0% 0% no-repeat padding-box;
+	opacity: 1;
+	box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  display: block;
+}
+button{
+	cursor: pointer;
+	border: none;
+}
+header{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  height: 44px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal normal 16px/17px Arial;
+  letter-spacing: 0px;
+  color: #241332;
+  position: fixed;
+  top: 0;
+  z-index: 20;
+}
+.main{
+  position: relative;
+  top: 44px;
+  margin-bottom: 108px;  
+}
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 20;
+}
+.alert{
+  width: 100%;
+  position: fixed;
+  top: 200px;
+  z-index: 20;
+}
+.btn-service{
+  width: 52px;
+  height: 52px;
+  background: #8A56AC 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 4px #00000066;
+  opacity: 1;
+  border-radius: 52px;
+  position: fixed;
+  right: 16px;
+  bottom: 108px;
+  z-index: 16;
+  transition: all 0.3s;
+}
+.btn-service:hover{
+  background: #8A56DC;
+  transform: scale(1.1);
+}
